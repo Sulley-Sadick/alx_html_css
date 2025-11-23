@@ -1,0 +1,27 @@
+/* body styles */
+body {
+  min-height: 100vh;
+  min-width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* main styles */
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+/* article styles */
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+/* aside styles */
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
