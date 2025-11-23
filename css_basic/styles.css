@@ -7,11 +7,19 @@ body {
   flex-direction: column;
 }
 
+/* header styles */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* main styles */
 main {
   display: flex;
   flex-direction: row;
   flex: auto;
+  margin-left: 0.5rem;
 }
 
 /* article styles */
