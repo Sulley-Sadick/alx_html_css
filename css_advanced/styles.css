@@ -258,7 +258,6 @@ blockquote {
 
 /* smiles-content */
 .smiles-content {
-  /* border: 1px solid blue; */
   margin: 1rem 1.5rem;
 }
 
@@ -315,7 +314,6 @@ blockquote {
 
 /* time */
 .time {
-  /* border: 1px solid red; */
   margin-right: 3.5rem;
 }
 
@@ -332,8 +330,6 @@ blockquote {
   text-align: center;
   font-weight: 200;
   font-size: 2rem;
-  /* margin-bottom: 2rem; */
-  /* border: 1px solid orange; */
 }
 
 /* membership section span*/
@@ -425,7 +421,6 @@ blockquote {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
 }
 
 .icons {
