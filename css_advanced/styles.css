@@ -5,13 +5,14 @@
   box-sizing: border-box;
 }
 
-/* importing font family */
+/* importing font family regular */
 @font-face {
   font-family: "Source Sans Pro";
   src: url("./fonts/SourceSansPro-Regular.otf") format("opentype");
   font-weight: normal;
   font-size: 0.75rem;
 }
+
 /* custom properties */
 :root {
   --white-color: #fff;
@@ -62,10 +63,13 @@ nav li {
   list-style: none;
 }
 
-/* anhor links  */
+/* anchor links  */
 nav li a {
   text-decoration: none;
   color: var(--white-color);
+}
+nav li a:hover {
+  text-decoration: underline;
 }
 
 /* intro-text  */
@@ -102,7 +106,7 @@ nav li a {
   color: var(--white-color);
   padding: 1rem;
   box-shadow: 5px 1px 2px rgba(0, 0, 0, 0.5);
-  border-radius: 1rem;
+  border-radius: 2rem;
   margin-top: 2rem;
 }
 
@@ -170,4 +174,42 @@ nav li a {
 /* bruce-img */
 .bruce-img {
   border-radius: 50%;
+}
+
+/* second section(tutorial-section */
+.tutorial-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: var(--pink-color);
+  color: var(--white-color);
+  padding: 3rem 3rem;
+  gap: 3rem;
+  font-size: 1.375rem;
+}
+
+.tutorial-section-description {
+  margin-top: -1rem;
+}
+
+/* laughing-img */
+.laughing-img {
+  margin-left: 23rem;
+}
+
+/* blockquote */
+blockquote {
+  font-weight: 400;
+  margin-bottom: 0.7rem;
+}
+
+/* tutorial-section-h3 */
+.tutorial-section h3 {
+  margin-bottom: 0.7rem;
+  font-weight: 700;
+}
+
+/* role */
+.role {
+  font-style: italic;
 }
