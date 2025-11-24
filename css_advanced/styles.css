@@ -412,3 +412,43 @@ blockquote {
   color: var(--light-black);
   margin: 1rem 0;
 }
+
+/* footer container */
+.footer-section {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  padding: 5rem 5rem;
+}
+
+/* footer container */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.icons {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.fa-facebook-f,
+.fa-instagram,
+.fa-twitter {
+  background-color: var(--white-color);
+  padding: 0.7rem;
+  width: 2rem;
+  color: var(--black-color);
+  border-radius: 50%;
+}
+
+/* footer paragraph */
+.footer-paragraph {
+  text-align: center;
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: -2.5rem;
+  color: #f5f6f7a1;
+}
