@@ -357,13 +357,58 @@ blockquote {
   line-height: 26px;
 }
 
+/* membership-title */
 .membership-title {
   margin-top: 1rem;
 }
 
+/* membership-btn */
 .membership-btn {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-inline: auto;
+}
+
+/* faq-section */
+.faq-section {
+  background-color: var(--white-color);
+  padding: 3rem 3rem;
+}
+
+/* faq-section h2*/
+.faq-section h2 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 3.75rem;
+  margin-bottom: 2rem;
+}
+
+/* faq-container */
+.faq-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  align-items: center;
+}
+
+/* left */
+.left {
+  margin-left: 7rem;
+}
+
+/* faq-container h3 */
+.faq-container h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin: 2rem 0;
+}
+
+/* faq-desc */
+.faq-desc {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 24px;
+  color: var(--light-black);
+  margin: 1rem 0;
 }
