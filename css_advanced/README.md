@@ -1,6 +1,10 @@
 # Project Title
 
-Short description of what the project does.
+Alx Advanced CSS Project
+
+# Description
+
+This project is a trial project after learning advanced CSS in the Alx Frontend Program.
 
 ## Live Demo
 
