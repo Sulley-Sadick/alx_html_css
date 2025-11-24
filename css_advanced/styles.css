@@ -18,6 +18,7 @@
   --white-color: #fff;
   --pink-color: #c271ff;
   --black-color: #071629;
+  --light-black: rgba(7, 22, 41, 0.5);
   --font-family: "Source Sans Pro";
 }
 
@@ -212,4 +213,109 @@ blockquote {
 /* role */
 .role {
   font-style: italic;
+}
+
+/* popular section(third section) */
+.popular-tutorial-section {
+  background-color: var(--white-color);
+  color: var(--black-color);
+  /* border: 1px solid red; */
+  margin: 5rem 5rem;
+  font-weight: 700;
+}
+
+/* popular-tutorial-section h2 */
+.popular-tutorial-section h2 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* popular-tutorial-section h2 span */
+.popular-tutorial-section h2 span {
+  color: var(--pink-color);
+  font-weight: 800;
+}
+
+/* popular-tutorial-container */
+.popular-tutorial-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* smiles-container */
+.smiles-container {
+  position: relative;
+}
+
+/* play */
+.play {
+  position: absolute;
+  top: 9%;
+  left: 30%;
+}
+
+/* smiles-content */
+.smiles-content {
+  /* border: 1px solid blue; */
+  margin: 1rem 1.5rem;
+}
+
+/* smiles-content h3 */
+.smiles-content h3 {
+  margin-bottom: 0.8rem;
+}
+
+/* smiles-desc */
+.smiles-desc {
+  color: var(--light-black);
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* writer */
+.writer {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0;
+  gap: 1rem;
+}
+
+/* writer-img*/
+.writer-img {
+  width: 50px;
+}
+
+/* writer-name, time and fa-star */
+.writer-name,
+.time,
+.fa-star {
+  color: var(--pink-color);
+}
+
+/* writer-name */
+.writer-name {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* .star-time, stars */
+.star-time,
+.stars {
+  display: flex;
+}
+
+/* star-time */
+.star-time {
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* time */
+.time {
+  /* border: 1px solid red; */
+  margin-right: 3.5rem;
 }
