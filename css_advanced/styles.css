@@ -22,6 +22,25 @@
   --font-family: "Source Sans Pro";
 }
 
+/* heping classes */
+.button {
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  background-color: var(--pink-color);
+  color: var(--white-color);
+  padding: 1rem;
+  box-shadow: 5px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2rem;
+  margin-top: 2rem;
+}
+
+/* hover state for the button */
+.button:hover {
+  cursor: pointer;
+  background-color: #bd83e9;
+}
+
 /* body */
 body {
   font-family: var(--font-family);
@@ -96,25 +115,6 @@ nav li a:hover {
   display: flex;
   gap: 2rem;
   margin-bottom: 1.5rem;
-}
-
-/* laughs button */
-.intro-section button {
-  font-weight: 600;
-  font-size: 1rem;
-  border: none;
-  background-color: var(--pink-color);
-  color: var(--white-color);
-  padding: 1rem;
-  box-shadow: 5px 1px 2px rgba(0, 0, 0, 0.5);
-  border-radius: 2rem;
-  margin-top: 2rem;
-}
-
-/* hover state for the button */
-.intro-section button:hover {
-  cursor: pointer;
-  background-color: #bd83e9;
 }
 
 /* learn */
@@ -219,7 +219,6 @@ blockquote {
 .popular-tutorial-section {
   background-color: var(--white-color);
   color: var(--black-color);
-  /* border: 1px solid red; */
   margin: 5rem 5rem;
   font-weight: 700;
 }
@@ -318,4 +317,53 @@ blockquote {
 .time {
   /* border: 1px solid red; */
   margin-right: 3.5rem;
+}
+
+/* membership section */
+.membership-section {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+/* membership section h2 */
+.membership-section h2 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 2rem;
+  /* margin-bottom: 2rem; */
+  /* border: 1px solid orange; */
+}
+
+/* membership section span*/
+.membership-section h2 span {
+  color: var(--pink-color);
+  font-weight: 700;
+}
+
+/* membership container */
+.membership-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 3rem 1rem 1rem 1rem;
+}
+
+/* membership-title, membership-desc */
+.membership-title,
+.membership-desc {
+  margin-bottom: 1rem;
+  line-height: 26px;
+}
+
+.membership-title {
+  margin-top: 1rem;
+}
+
+.membership-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
 }
